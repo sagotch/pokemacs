@@ -47,6 +47,15 @@
 ;;  "C-x M-1"                 'delete-other-windows
 ;;  )
 
+(general-define-key
+ "C-_" 'undo
+ "C-x u" 'undo)
+
+(general-define-key
+  :keymaps 'corfu-map
+  "<tab>" 'corfu-insert
+)
+
 (provide 'post-init)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; post-init.el ends here
