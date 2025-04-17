@@ -148,5 +148,10 @@
  `(mode-line-inactive ((nil ,@tuple-mono-font)))
  `(variable-pitch ((t (,@tuple-variable-font :weight light :height 1.3)))))
 
+;; Sagotch customization
+(custom-set-variables
+ '(pokemacs-theme-type 'dark)
+ )
+
 (provide 'custom)
 ;;; custom.el ends here
