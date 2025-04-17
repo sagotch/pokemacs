@@ -152,6 +152,7 @@
 (custom-set-variables
  '(pokemacs-theme-type 'dark)
  '(pokemacs-tuareg-prettify-symbols-alist nil)
+ '(vertico-resize nil nil nil "Set to nil if you don't want the minibuffer to shrink and grow")
  )
 
 (provide 'custom)
