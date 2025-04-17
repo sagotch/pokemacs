@@ -151,6 +151,7 @@
 ;; Sagotch customization
 (custom-set-variables
  '(pokemacs-theme-type 'dark)
+ '(pokemacs-tuareg-prettify-symbols-alist nil)
  )
 
 (provide 'custom)
